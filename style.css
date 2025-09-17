@@ -100,6 +100,21 @@ body{
   position: relative;
 }
 
+.sidebar > div {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+}
+
+.sidebar > div > div {
+  color: white;
+}
+
+.sidebar  img {
+  max-width: 50px;
+  color: white;
+}
+
 /* sidebar end */
 
 .content{
